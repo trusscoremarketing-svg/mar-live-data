@@ -1,0 +1,7 @@
+{
+  "test": true,
+  "source": "mar-live-data",
+  "generated_at": "2026-11-26T17:05:00Z",
+  "note": "Test file to confirm the host pull. Not real counts.",
+  "counts": {}
+}
