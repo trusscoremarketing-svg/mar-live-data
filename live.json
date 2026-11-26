@@ -1,7 +1,149 @@
 {
-  "test": true,
-  "source": "mar-live-data",
-  "generated_at": "2026-11-26T17:05:00Z",
-  "note": "Test file to confirm the host pull. Not real counts.",
-  "counts": {}
+  "schema": 1,
+  "generated_at": "2026-11-26T17:18:43Z",
+  "sections": {
+    "trusted-installer": {
+      "groups": [
+        {
+          "id": "ti-status",
+          "title": "Installer status",
+          "as_of": "2026-11-26T17:18:43Z",
+          "cadence": "nightly",
+          "items": [
+            {
+              "label": "Trusted Installer (Verified)",
+              "value": 976,
+              "fmt": "int",
+              "sub": "people"
+            },
+            {
+              "label": "Trial Installer (Onboarded)",
+              "value": 159,
+              "fmt": "int",
+              "sub": "people"
+            },
+            {
+              "label": "Prospect Installer",
+              "value": 3,
+              "fmt": "int",
+              "sub": "people"
+            },
+            {
+              "label": "Non-Active",
+              "value": 491,
+              "fmt": "int",
+              "sub": "people"
+            },
+            {
+              "label": "Not Suitable",
+              "value": 127,
+              "fmt": "int",
+              "sub": "people"
+            }
+          ],
+          "note": "Salesforce contacts by Installer Status, internal records excluded."
+        },
+        {
+          "id": "ti-month",
+          "title": "This month",
+          "as_of": "2026-11-26T17:18:43Z",
+          "cadence": "nightly",
+          "items": [
+            {
+              "label": "TTIP applications",
+              "value": 17,
+              "fmt": "int",
+              "sub": "form submissions since Nov 1"
+            },
+            {
+              "label": "New Verified",
+              "value": 51,
+              "fmt": "int",
+              "sub": "people since Nov 1"
+            },
+            {
+              "label": "New Trial",
+              "value": 37,
+              "fmt": "int",
+              "sub": "people since Nov 1"
+            }
+          ]
+        },
+        {
+          "id": "ti-co",
+          "title": "Companies and SMS",
+          "as_of": "2026-11-26T17:18:43Z",
+          "cadence": "nightly",
+          "items": [
+            {
+              "label": "Verified companies",
+              "value": 987,
+              "fmt": "int",
+              "sub": "accounts"
+            },
+            {
+              "label": "Trial companies",
+              "value": 160,
+              "fmt": "int",
+              "sub": "accounts"
+            },
+            {
+              "label": "Verified opted in to SMS",
+              "value": 48,
+              "fmt": "int",
+              "sub": "people"
+            },
+            {
+              "label": "Trial opted in to SMS",
+              "value": 43,
+              "fmt": "int",
+              "sub": "people"
+            }
+          ]
+        }
+      ]
+    },
+    "sms": {
+      "groups": [
+        {
+          "id": "sms-optins",
+          "title": "SMS opt-ins",
+          "as_of": "2026-11-26T17:18:43Z",
+          "cadence": "nightly",
+          "items": [
+            {
+              "label": "SMS opt-ins",
+              "value": 102,
+              "fmt": "int",
+              "sub": "leads and contacts, internal records excluded"
+            }
+          ]
+        }
+      ]
+    },
+    "conversions": {
+      "groups": [
+        {
+          "id": "est-month",
+          "title": "Estimator this month",
+          "as_of": "2026-11-26T17:18:43Z",
+          "cadence": "nightly",
+          "items": [
+            {
+              "label": "Estimator submissions",
+              "value": 703,
+              "fmt": "int",
+              "sub": "since Nov 1"
+            },
+            {
+              "label": "Estimator MQLs",
+              "value": 430,
+              "fmt": "int",
+              "sub": "$3,000 and up"
+            }
+          ]
+        }
+      ]
+    }
+  }
 }
