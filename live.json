@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-26T17:30:40Z",
+  "generated_at": "2026-11-27T07:40:00Z",
   "sections": {
     "trusted-installer": {
       "groups": [
         {
           "id": "ti-status",
           "title": "Installer status",
-          "as_of": "2026-11-26T17:30:40Z",
+          "as_of": "2026-11-27T07:40:00Z",
           "cadence": "nightly",
           "items": [
             {
@@ -18,7 +18,7 @@
             },
             {
               "label": "Trial Installer (Onboarded)",
-              "value": 159,
+              "value": 161,
               "fmt": "int",
               "sub": "people"
             },
@@ -46,7 +46,7 @@
         {
           "id": "ti-month",
           "title": "This month",
-          "as_of": "2026-11-26T17:30:40Z",
+          "as_of": "2026-11-27T07:40:00Z",
           "cadence": "nightly",
           "items": [
             {
@@ -72,7 +72,7 @@
         {
           "id": "ti-co",
           "title": "Companies and SMS",
-          "as_of": "2026-11-26T17:30:40Z",
+          "as_of": "2026-11-27T07:40:00Z",
           "cadence": "nightly",
           "items": [
             {
@@ -83,7 +83,7 @@
             },
             {
               "label": "Trial companies",
-              "value": 160,
+              "value": 162,
               "fmt": "int",
               "sub": "accounts"
             },
@@ -95,7 +95,7 @@
             },
             {
               "label": "Trial opted in to SMS",
-              "value": 43,
+              "value": 44,
               "fmt": "int",
               "sub": "people"
             }
@@ -108,7 +108,7 @@
         {
           "id": "sms-optins",
           "title": "SMS opt-ins",
-          "as_of": "2026-11-26T17:30:40Z",
+          "as_of": "2026-11-27T07:40:00Z",
           "cadence": "nightly",
           "items": [
             {
@@ -126,18 +126,18 @@
         {
           "id": "est-month",
           "title": "Estimator this month",
-          "as_of": "2026-11-26T17:30:40Z",
+          "as_of": "2026-11-27T07:40:00Z",
           "cadence": "nightly",
           "items": [
             {
               "label": "Estimator submissions",
-              "value": 703,
+              "value": 711,
               "fmt": "int",
               "sub": "since Nov 1"
             },
             {
               "label": "Estimator MQLs",
-              "value": 430,
+              "value": 435,
               "fmt": "int",
               "sub": "$3,000 and up"
             }
