@@ -1,13 +1,13 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-27T07:40:00Z",
+  "generated_at": "2026-11-28T07:45:00Z",
   "sections": {
     "trusted-installer": {
       "groups": [
         {
           "id": "ti-status",
           "title": "Installer status",
-          "as_of": "2026-11-27T07:40:00Z",
+          "as_of": "2026-11-28T07:45:00Z",
           "cadence": "nightly",
           "items": [
             {
@@ -18,25 +18,25 @@
             },
             {
               "label": "Trial Installer (Onboarded)",
-              "value": 161,
+              "value": 159,
               "fmt": "int",
               "sub": "people"
             },
             {
               "label": "Prospect Installer",
-              "value": 3,
+              "value": 4,
               "fmt": "int",
               "sub": "people"
             },
             {
               "label": "Non-Active",
-              "value": 491,
+              "value": 492,
               "fmt": "int",
               "sub": "people"
             },
             {
               "label": "Not Suitable",
-              "value": 127,
+              "value": 128,
               "fmt": "int",
               "sub": "people"
             }
@@ -46,12 +46,12 @@
         {
           "id": "ti-month",
           "title": "This month",
-          "as_of": "2026-11-27T07:40:00Z",
+          "as_of": "2026-11-28T07:45:00Z",
           "cadence": "nightly",
           "items": [
             {
               "label": "TTIP applications",
-              "value": 17,
+              "value": 19,
               "fmt": "int",
               "sub": "form submissions since Nov 1"
             },
@@ -72,7 +72,7 @@
         {
           "id": "ti-co",
           "title": "Companies and SMS",
-          "as_of": "2026-11-27T07:40:00Z",
+          "as_of": "2026-11-28T07:45:00Z",
           "cadence": "nightly",
           "items": [
             {
@@ -83,7 +83,7 @@
             },
             {
               "label": "Trial companies",
-              "value": 162,
+              "value": 160,
               "fmt": "int",
               "sub": "accounts"
             },
@@ -108,12 +108,12 @@
         {
           "id": "sms-optins",
           "title": "SMS opt-ins",
-          "as_of": "2026-11-27T07:40:00Z",
+          "as_of": "2026-11-28T07:45:00Z",
           "cadence": "nightly",
           "items": [
             {
               "label": "SMS opt-ins",
-              "value": 102,
+              "value": 103,
               "fmt": "int",
               "sub": "leads and contacts, internal records excluded"
             }
@@ -126,18 +126,18 @@
         {
           "id": "est-month",
           "title": "Estimator this month",
-          "as_of": "2026-11-27T07:40:00Z",
+          "as_of": "2026-11-28T07:45:00Z",
           "cadence": "nightly",
           "items": [
             {
               "label": "Estimator submissions",
-              "value": 711,
+              "value": 727,
               "fmt": "int",
               "sub": "since Nov 1"
             },
             {
               "label": "Estimator MQLs",
-              "value": 435,
+              "value": 443,
               "fmt": "int",
               "sub": "$3,000 and up"
             }
